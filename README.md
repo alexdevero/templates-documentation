@@ -1,2 +1,2 @@
 # Template documentation
-Default documentation for my template and themes on [creative](https://creativemarket.com/alexdevero).
+Default documentation for my templates and themes on [creativemarket](https://creativemarket.com/alexdevero).
