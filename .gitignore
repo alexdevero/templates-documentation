@@ -1,7 +1,3 @@
-# Deployment config #
-#####################
-ftp-credentials.json
-
 # Development folders and files #
 #################################
 .tmp/
