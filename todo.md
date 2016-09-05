@@ -1,0 +1,5 @@
+﻿# Todo:
+-
+
+## General ideas:
+-
