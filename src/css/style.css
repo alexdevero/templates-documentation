@@ -1,0 +1,182 @@
+/* ----------------------------------------------------------------
+  CSS Specific to the Documentation
+
+  Version: 1.0
+-----------------------------------------------------------------*/
+
+.logo a {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  line-height: 100px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ----------------------------------------------------------------
+  Docs
+-----------------------------------------------------------------*/
+
+.docs-navigation {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-y: scroll;
+  width: 280px;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+.docs-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.docs-navigation > ul {
+  margin: 40px 0;
+}
+
+.docs-navigation ul li {
+  position: relative;
+}
+
+.docs-navigation ul ul {
+  margin: 0 0 5px;
+}
+
+.docs-navigation ul li:first-child {
+  border-top: 0;
+}
+
+.docs-navigation ul a {
+  position: relative;
+  display: block;
+  padding: 5px 60px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.docs-navigation ul li:hover > a,
+.docs-navigation ul li.ui-tabs-active > a {
+  font-weight: 700;
+}
+
+.docs-navigation ul li > a .label {
+  position: relative;
+  top: -1px;
+  margin-left: 5px;
+}
+
+.docs-navigation ul ul {
+  display: none;
+}
+
+.docs-navigation ul li.ui-tabs-active ul {
+  display: block;
+}
+
+.docs-navigation ul ul a {
+  padding: 3px 60px 3px 75px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.docs-navigation ul ul li:hover > a,
+.docs-navigation ul ul li.current > a {
+  font-weight: 500;
+  color: #222;
+}
+
+.docs-navigation ul ul li.current a:after {
+  position: absolute;
+  top: 3px;
+  right: 20px;
+  font-size: 14px;
+  content: "\e7a5";
+}
+
+.docs-content {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0 60px 40px;
+  margin-left: 250px;
+  min-height: 1000px;
+}
+
+.docs-content ul,
+.docs-content ol {
+  margin: 30px 0;
+}
+
+.docs-content ul ul,
+.docs-content ol ol,
+.docs-content ul ol,
+.docs-content ol ul {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.page-section {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------------------------------------------------------
+  Icons
+-----------------------------------------------------------------*/
+
+ul.docs-icons {
+  padding: 0;
+  margin: 0 -15px -20px;
+  list-style: none;
+}
+
+ul.docs-icons li {
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  width: 33.3%;
+  font-size: 16px;
+}
+
+ul.docs-icons li i {
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+ul.docs-icons li span {
+  display: inline-block;
+  line-height: 24px;
+}
+
+.show-grid [class^=col-],
+.show-grid [class^=col_] {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+
+.show-grid [class^=col_] {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
