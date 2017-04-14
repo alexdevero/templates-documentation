@@ -28,8 +28,10 @@
     "url": "https://github.com/alexdevero/templates-documentation.git"
   },
   "devDependencies": {
+    "animate.css": "^3.5.2",
     "babel-preset-env": "^1.3.3",
     "babel-register": "^6.24.1",
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
