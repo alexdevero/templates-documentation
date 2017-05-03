@@ -2,6 +2,7 @@
 [![Dependency Status](https://david-dm.org/alexdevero/templates-documentation.svg?style=flat)](https://david-dm.org/alexdevero/templates-documentation)
 [![devDependency Status](https://david-dm.org/alexdevero/templates-documentation/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/templates-documentation?type=dev)
 [![Built with Gulp](https://img.shields.io/badge/build%20with-gulp-orange.svg)](http://gulpjs.com/)
+[![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
 
 # Template documentation
 Default documentation for my templates and themes on [creativemarket](https://creativemarket.com/alexdevero).
