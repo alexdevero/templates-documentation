@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "animate.css": "^3.5.2",
-    "babel-preset-env": "^1.5.1",
+    "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.12",
@@ -39,7 +39,7 @@
     "gulp-changed": "^3.1.0",
     "gulp-copy": "^1.0.0",
     "gulp-htmlhint": "^0.3.1",
-    "gulp-imagemin": "^3.2.0",
+    "gulp-imagemin": "^3.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
@@ -50,9 +50,9 @@
     "gulp-sourcemaps": "^2.6.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "imagemin-pngquant": "^5.0.0",
+    "imagemin-pngquant": "^5.0.1",
     "postcss-cssnext": "^2.11.0",
-    "require-dir": "^0.3.1",
+    "require-dir": "^0.3.2",
     "vinyl-ftp": "^0.6.0"
   },
   "private": true
