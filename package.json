@@ -32,7 +32,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
     "bootstrap": "^3.3.7",
-    "browser-sync": "^2.18.12",
+    "browser-sync": "^2.18.13",
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
@@ -51,7 +51,7 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^5.0.1",
-    "postcss-cssnext": "^2.11.0",
+    "postcss-cssnext": "^3.0.2",
     "require-dir": "^0.3.2",
     "vinyl-ftp": "^0.6.0"
   },
